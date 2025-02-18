@@ -25,7 +25,7 @@
                                         fill="currentColor"/>
                                 </g>
                         </svg>
-                        <input @change="fileChange" type="file" accept="image/*" multiple hidden>
+                        <input @change="fileChange" type="file" accept="image/*, video/*" multiple hidden>
                     </label>     
                 </div>
 
